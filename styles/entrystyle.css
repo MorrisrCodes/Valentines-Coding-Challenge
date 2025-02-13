@@ -11,15 +11,24 @@ h1 {
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
-button {
+a {
+    display: inline-block;
     background-color: pink;
     width: 150px;
     height: 40px;
     color: white;
-    border: none;
+    text-align: center;
+    line-height: 40px;
     border-radius: 18px;
+    text-decoration: none;  /* Removes underline */
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-button:hover {
+a:hover {
     transform: scale(1.1);
+    background-color: #ff5c8d;  /* Slight color change on hover */
+}
+
+h1:hover {
+    transform: scale(1.4);
 }

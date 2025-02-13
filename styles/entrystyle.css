@@ -1,0 +1,25 @@
+html {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #ffe4e9, #ffccd5, #ffb3c1);
+    height: 100vh;
+    align-items: center;
+}
+
+h1 {
+    color: pink;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+button {
+    background-color: pink;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 18px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
